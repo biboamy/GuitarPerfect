@@ -1,0 +1,236 @@
+/*******************
+ *     global      *
+ ******************/
+html, body {
+	height: auto;
+	width:100%;
+  background-color: #333333;
+}
+body{
+  min-width: 1049px;	
+}
+*{
+	font-family: FangSong;
+}
+/*******************
+ *     header      *
+ ******************/
+#header{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+.shop_name{
+  font-family: Impact;
+  color:#e6ac00;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 40px;
+}
+#menu{
+  margin:0 auto;
+  width: 37%;
+  margin-top: 30px;
+  height: 50px;
+  border-bottom: 1px solid #404040;
+}
+#menu > .middle_btn{
+  padding: 0 0 0 44px;
+}
+#menu > .btn{
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'museo_sans300',sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+#slide_menu{
+  margin:0 auto;
+  width: 15%;
+  margin-top: 10px;
+  height: 40px;
+  display: none;
+}
+#slide_menu > .btn{
+  display: inline-block;
+  color: #dac997;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'museo_sans300',sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+#slide_menu > .middle_btn{
+  padding: 0 0 0 40px;
+}
+/*******************
+ *    container    *
+ ******************/
+ .full_width{
+  width: 70%;
+  margin: 0 auto
+ }
+ .sort{
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  border-bottom: 1px solid #404040;
+ }
+ .sort_word{
+  color: #e6ac00;
+  font-size: 26px;
+
+ }
+
+ /* about and contact */
+ .paragraph{
+  width: 70%;
+ }
+ .paragraph > .title{
+  font-size: 40px;
+  color: #e6ac00;
+  margin-top: 40px;
+  font-family: 'museo_sans300',sans-serif;
+ }
+ .paragraph > .text{
+  font-size: 20px;
+  color: #ebebe0;
+  margin-top: 15px;
+ }
+ .paragraph > .small_title{
+  font-size: 20px;
+  color: #e6ac00; 
+  margin-top: 15px;
+  display: inline-block;
+ } 
+ .paragraph > .small_text{
+  font-size: 20px;
+  color: #ebebe0;
+  margin-top: 15px;
+  display: inline-block;
+ } 
+
+ /* cookie and cake */
+ #middle_block{
+  width: 100%;
+  margin-top: 2%;
+  float: left;
+  background-color: #4d4d4d;
+ }
+ .box{
+  width: 25%;
+  display: inline-block;
+  float: left;
+  position: relative;
+ }
+ #middle_block > .container{
+  padding: 2px;
+  float: left;
+  width: 100%;
+ }
+.box > img{
+  width: 100%;
+  padding: 2px;
+}
+.mask{
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.middle{
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.mask .middle_cell{
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: table-cell;
+}
+.middle_cell div{
+  font-size: 20px;
+  background-color: rgba(255, 195, 77, 0.8);
+  text-align: center;
+  width: 53%;
+  margin: 0 auto;
+  padding: 8px 0 8px 0;
+  font-weight: 600;
+}
+.product_describe{
+  display: none;
+}
+
+/* product */
+.picture{
+  width: 45%;
+  margin-top: 20px;
+  display: inline-block;
+}
+.picture img{
+  width: 100%;
+}
+.right_block{
+  display: inline-block;
+  width: 45%;
+  margin-left: 50px;
+}
+.right_block .header{
+  color: #e6ac00;
+  border-bottom: 1px solid #404040;
+  font-size: 30px;
+}
+.right_block .describe{
+  color: #ebebe0;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.order_btn{
+  color: #ebebe0;
+  font-size: 16px;
+}
+/*******************
+ *     footer      *
+ ******************/
+ #footer{
+  background-color: black;
+  width: 100%;
+  height: 170px;
+  float: left;
+  margin-top: 6%;
+ }
+ .footer_middle{
+  margin-left: 40px;
+ }
+#footer .shop_icon{
+  color: #dac997;
+  font-family: 'museo_sans300',sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.icon_link img{
+  width: 16%;
+  cursor: pointer;
+  float: left;
+}
+.middle_title{
+  color: #dac997;
+  font-family: 'museo_sans300',sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  padding-top: 20px;
+}
+.middle_word{
+  color: white;
+  font-family: 'museo_sans300',sans-serif;
+  font-size: 10px;
+  line-height: 1.7;
+  cursor: pointer;
+}
