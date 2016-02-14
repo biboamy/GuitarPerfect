@@ -110,6 +110,9 @@ body{
   color: #ebebe0;
   margin-top: 15px;
   display: inline-block;
+ }
+ .paragraph > .small_text a:hover{
+  text-decoration: none;
  } 
 
  /* cookie and cake */
@@ -193,12 +196,19 @@ body{
   margin-top: 10px;
 }
 .order_btn{
-  width: 20%;
+  width: 100%;
   border: 2px solid #dac997;
   text-align: center;
   padding: 5px;
   cursor: pointer;
   margin-top: 30px;
+}
+.order_btn a{
+  font-family: 'museo_sans300',sans-serif;
+  color: white;
+}
+.order_btn a:hover {
+    text-decoration: none;
 }
 /*******************
  *     footer      *
