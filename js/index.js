@@ -1,6 +1,8 @@
 var module = angular.module('myApp', []);
 module.controller('HeaderController', function($scope, $http) {
 
+    
+
     $( window ).load(function() {
       $("#container").load("about.html", function(responseTxt, statusTxt, xhr) {
             if (statusTxt == "success") {
@@ -45,6 +47,17 @@ module.controller('HeaderController', function($scope, $http) {
             if (statusTxt == "success") {
                 $('#contain div').fadeOut("slow");
                 $('#about_contain').fadeIn("slow");
+            }
+            if (statusTxt == "error") {
+                console.log("error");
+            }
+        });
+    });
+    $(".order").click(function() {
+        $("#container").load("order.html", function(responseTxt, statusTxt, xhr) {
+            if (statusTxt == "success") {
+                $('#contain div').fadeOut("slow");
+                $('#order_contain').fadeIn("slow");
             }
             if (statusTxt == "error") {
                 console.log("error");

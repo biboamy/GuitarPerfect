@@ -13,7 +13,11 @@
     <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src= "js/index.js"></script>
 
-    
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script>
+      var ref = new Firebase("https://cookieholic.firebaseio.com/");
+    </script>
+
 </head>
 <body >
 <!-- header -->
@@ -22,7 +26,7 @@
       <div id="menu">
         <div class="btn about">about</div>
         <div class="btn middle_btn product">product</div>        
-        <div class="btn middle_btn order_btn"><a href="https://docs.google.com/forms/d/1yXCYcSpxfYa9nS-K5seETQF7exApc94mmfr7DrtIGSQ/viewform" target="_blank">order</a></div>
+        <div class="btn middle_btn order">order</div>
         <div class="btn middle_btn contact">contact</div>
       </div>
       <div id="slide_menu">
@@ -48,8 +52,7 @@
         <div class="footer_middle col-sm-2">
           <div class="middle_title">NAVIGATION</div>
           <div class="middle_word about">About</div>
-          <div class="middle_word order_btn"><a href="https://docs.google.com/forms/d/1yXCYcSpxfYa9nS-K5seETQF7exApc94mmfr7DrtIGSQ/viewform" target="_blank">order</a></div>
-        <div class="btn middle_btn contact">Order</a></div>
+          <div class="middle_word order">Order</div>
           <div class="middle_word contact">Contact</div>
         </div>
         <div class="footer_right col-sm-2">

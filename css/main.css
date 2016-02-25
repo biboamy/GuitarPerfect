@@ -86,7 +86,7 @@ body{
 
  /* about and contact */
  .paragraph{
-  width: 70%;
+  width: 100%;
  }
  .paragraph > .title{
   font-size: 40px;
@@ -202,14 +202,47 @@ body{
   padding: 5px;
   cursor: pointer;
   margin-top: 30px;
-}
-.order_btn a{
   font-family: 'museo_sans300',sans-serif;
   color: white;
+  display: inline-block;
+  float: right;
 }
-.order_btn a:hover {
-    text-decoration: none;
+
+.order_btn:hover {
+  text-decoration: none;
+  color: black;
 }
+/*******************
+ *     cart        *
+ ******************/
+ #form{
+  width: 70%;
+  margin: 0 auto;
+ }
+ .order_list{
+  margin-top: 30px;
+ }
+ .top_list{
+  margin-top: 30px;
+  width: 100%;
+ }
+ .top_list .list{
+  margin-top: 10px;
+ }
+ #form .list{
+  margin-top: 20px;
+ }
+ #form .color{
+  color: #dac997 !important;
+ }
+ #form .word{
+  color: white;
+  font-size: 18px;
+  display: inline; 
+ }
+ #form .quality{
+  width: 50px;
+ }
 /*******************
  *     footer      *
  ******************/
