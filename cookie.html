@@ -1,104 +1,173 @@
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html ng-app="myApp">
 
-<script src= "js/cookie.js"></script>
-<div id="cookie_contain" >
-	<div class="full_width">
-	    <div class="sort">
-	        <div class="sort_word">cookie</div>
-	    </div>
-	    <div id="middle_block">
-	        <div class="container">
-	            <div class="box">
-	                <img src="img/cookie_1.jpg">
-	                <div class="mask">
-	                    <div class="middle">
-	                        <div class="middle_cell">
-	                            <div class="product_name">藍莓捲心</div>
-	                            <div class="product_describe">採用來自雪霸農場自家栽種的有機小藍莓果醬，新鮮藍莓製成的果醬，不同於一般的是雪霸的藍莓果醬偏酸，中和奶酥餅乾原有的甜味，使餅乾不會那麼膩，而且還帶有水果的香氣。</div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="box">
-	                <img src="img/cookie_2.jpg">
-	                <div class="mask">
-	                    <div class="middle">
-	                        <div class="middle_cell">
-	                            <div class="product_name">薰衣草奶酥</div>
-	                            <div class="product_describe">自從在薰衣草花園吃了特製的薰衣草餅乾後，就對那個味道念念不忘，因此特別嘗試將薰衣草融入麵糰中，調出屬於cookieholic的味道，使餅乾帶有薰衣草的香氣外，還帶有薰衣草的甘甜。</div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="box">
-	                <img src="img/cookie_3.jpg">
-	                <div class="mask">
-	                    <div class="middle">
-	                        <div class="middle_cell">
-	                            <div class="product_name">蜂蜜奶酥</div>
-	                            <div class="product_describe">由蜂蜜先生的蜂蜜製成，膏狀的蜂蜜比一般的蜂蜜來的濃，此外將蜂蜜的甜味取代砂糖本身的甜味，讓餅乾帶有淡淡的蜂蜜香。</div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="box">
-	                <img src="img/cookie_4.jpg">
-	                <div class="mask">
-	                    <div class="middle">
-	                        <div class="middle_cell">
-	                            <div class="product_name">全麥黑糖</div>
-	                            <div class="product_describe">由全麥粉製成的餅乾，比一般餅乾更酥脆，除了有小麥的香氣外，更帶有黑糖特殊的甜味和香氣。</div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="box">
-	                <img src="img/cookie_5.jpg">
-	                <div class="mask">
-	                    <div class="middle">
-	                        <div class="middle_cell">
-	                            <div class="product_name">抹茶紅豆</div>
-	                            <div class="product_describe">抹茶口味的奶酥餅乾，由抹茶的香味和苦味中和奶酥本身的甜膩，加入蜜紅豆後並不會太甜，反而讓每一口帶有一點小驚喜。</div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="box">
-	                <img src="img/cookie_6.jpg">
-	                <div class="mask">
-	                    <div class="middle">
-	                        <div class="middle_cell">
-	                            <div class="product_name">伯爵夫人</div>
-	                            <div class="product_describe">法式喜餅常出現的餅乾，經過改良後外層酥脆不會那麼甜，相對餅乾的甜味由內陷的蓁果巧克力醬帶出。</div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="box">
-	                <img src="img/cookie_7.jpg">
-	                <div class="mask">
-	                    <div class="middle">
-	                        <div class="middle_cell">
-	                            <div class="product_name">麥芽奶酥</div>
-	                            <div class="product_describe">外圈為奶酥餅乾，中間的焦糖陷，加入杏仁角，烤到焦脆，除了帶有焦糖的甜外，還帶有杏仁淡淡的香氣。</div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="box">
-	                <img src="img/cookie_8.jpg">
-	                <div class="mask">
-	                    <div class="middle">
-	                        <div class="middle_cell">
-	                            <div class="product_name">抹茶星星</div>
-	                            <div class="product_describe">如棉花糖一般的口感，放入嘴裡立即融化，除了帶有淡淡的甜味外，還帶有抹茶的香味和屬於抹茶淡淡的苦味。</div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
+<head>
+    <title>guitar club family tree</title>
+    <meta http-equiv="content-language" content="zh-tw">
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.17/jquery-ui.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/cookie.js"></script>
 
-	    </div>
-	</div>
-</div>
+</head>
 
+<body>
+    <!-- header -->
+    <div id="header" ng-controller="HeaderController">
+        <div class="shop_name">cookieholic</div>
+        <div id="menu">
+            <div class="btn about">about</div>
+            <div class="btn middle_btn product">product</div>
+            <div class="btn middle_btn order">order</div>
+            <div class="btn middle_btn contact">contact</div>
+        </div>
+        <div id="slide_menu">
+            <div class="btn cookie">cookie</div>
+            <div class="btn middle_btn cake">cake</div>
+        </div>
+    </div>
+
+    <!-- container -->
+    <div id="container">
+        <div id="cookie_contain">
+            <div class="full_width">
+                <div class="sort">
+                    <div class="sort_word">cookie</div>
+                </div>
+                <div id="middle_block">
+                    <div class="container">
+                        <div class="box">
+                            <img src="img/cookie_1.jpg">
+                            <div class="mask">
+                                <div class="middle">
+                                    <div class="middle_cell">
+                                        <div class="product_name">藍莓捲心</div>
+                                        <div class="product_describe">採用來自雪霸農場自家栽種的有機小藍莓果醬，新鮮藍莓製成的果醬，不同於一般的是雪霸的藍莓果醬偏酸，中和奶酥餅乾原有的甜味，使餅乾不會那麼膩，而且還帶有水果的香氣。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/cookie_2.jpg">
+                            <div class="mask">
+                                <div class="middle">
+                                    <div class="middle_cell">
+                                        <div class="product_name">薰衣草奶酥</div>
+                                        <div class="product_describe">自從在薰衣草花園吃了特製的薰衣草餅乾後，就對那個味道念念不忘，因此特別嘗試將薰衣草融入麵糰中，調出屬於cookieholic的味道，使餅乾帶有薰衣草的香氣外，還帶有薰衣草的甘甜。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/cookie_3.jpg">
+                            <div class="mask">
+                                <div class="middle">
+                                    <div class="middle_cell">
+                                        <div class="product_name">蜂蜜奶酥</div>
+                                        <div class="product_describe">由蜂蜜先生的蜂蜜製成，膏狀的蜂蜜比一般的蜂蜜來的濃，此外將蜂蜜的甜味取代砂糖本身的甜味，讓餅乾帶有淡淡的蜂蜜香。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/cookie_4.jpg">
+                            <div class="mask">
+                                <div class="middle">
+                                    <div class="middle_cell">
+                                        <div class="product_name">全麥黑糖</div>
+                                        <div class="product_describe">由全麥粉製成的餅乾，比一般餅乾更酥脆，除了有小麥的香氣外，更帶有黑糖特殊的甜味和香氣。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/cookie_5.jpg">
+                            <div class="mask">
+                                <div class="middle">
+                                    <div class="middle_cell">
+                                        <div class="product_name">抹茶紅豆</div>
+                                        <div class="product_describe">抹茶口味的奶酥餅乾，由抹茶的香味和苦味中和奶酥本身的甜膩，加入蜜紅豆後並不會太甜，反而讓每一口帶有一點小驚喜。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/cookie_6.jpg">
+                            <div class="mask">
+                                <div class="middle">
+                                    <div class="middle_cell">
+                                        <div class="product_name">伯爵夫人</div>
+                                        <div class="product_describe">法式喜餅常出現的餅乾，經過改良後外層酥脆不會那麼甜，相對餅乾的甜味由內陷的蓁果巧克力醬帶出。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/cookie_7.jpg">
+                            <div class="mask">
+                                <div class="middle">
+                                    <div class="middle_cell">
+                                        <div class="product_name">麥芽奶酥</div>
+                                        <div class="product_describe">外圈為奶酥餅乾，中間的焦糖陷，加入杏仁角，烤到焦脆，除了帶有焦糖的甜外，還帶有杏仁淡淡的香氣。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/cookie_8.jpg">
+                            <div class="mask">
+                                <div class="middle">
+                                    <div class="middle_cell">
+                                        <div class="product_name">抹茶星星</div>
+                                        <div class="product_describe">如棉花糖一般的口感，放入嘴裡立即融化，除了帶有淡淡的甜味外，還帶有抹茶的香味和屬於抹茶淡淡的苦味。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="full_width">
+            <div class="footer_left col-sm-2">
+                <div class="shop_icon">COOKIEHOLIC</div>
+                <div class="icon_link">
+                    <a href="https://www.facebook.com/%E5%BA%AB%E7%B6%BA%E5%93%88%E5%88%A9-Cookieholic-801496709924452/?fref=ts"><img src="img/facebook.png">
+                    </a>
+                </div>
+                <div class="icon_link"><img src="img/google.png">
+                </div>
+            </div>
+            <div class="footer_middle col-sm-2">
+                <div class="middle_title">NAVIGATION</div>
+                <div class="middle_word about">About</div>
+                <div class="middle_word order">Order</div>
+                <div class="middle_word contact">Contact</div>
+            </div>
+            <div class="footer_right col-sm-2">
+                <div class="middle_title">PRODUCT</div>
+                <div class="middle_word cake">Cake</div>
+                <div class="middle_word cookie">Cookie</div>
+                <div class="middle_word">Tart</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
