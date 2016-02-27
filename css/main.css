@@ -34,9 +34,7 @@ body{
   height: 50px;
   border-bottom: 1px solid #404040;
 }
-#menu > .middle_btn{
-  padding: 0 0 0 44px;
-}
+
 #menu > .btn{
   display: inline-block;
   color: white;
