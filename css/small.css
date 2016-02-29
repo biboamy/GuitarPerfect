@@ -103,6 +103,12 @@ body{
   margin-top: 15px;
   display: inline-block;
  } 
+ .paragraph span{
+  font-size: 20px;
+  color: #e6ac00; 
+  margin-top: 15px;
+  display: inline-block;
+ }
  .paragraph > .small_text{
   font-size: 20px;
   color: #ebebe0;
@@ -121,7 +127,7 @@ body{
   background-color: #4d4d4d;
  }
  .box{
-  width: 25%;
+  width: 50%;
   display: inline-block;
   float: left;
   position: relative;
@@ -171,7 +177,7 @@ body{
 
 /* product */
 .picture{
-  width: 45%;
+  width: 90%;
   margin-top: 20px;
   display: inline-block;
 }
@@ -180,13 +186,14 @@ body{
 }
 .right_block{
   display: inline-block;
-  width: 45%;
-  margin-left: 50px;
+  width: 100%;
+
 }
 .right_block .header{
   color: #e6ac00;
   border-bottom: 1px solid #404040;
   font-size: 30px;
+  margin-top: 20px;
 }
 .right_block .describe{
   color: #ebebe0;
@@ -205,7 +212,9 @@ body{
   display: inline-block;
   float: right;
 }
-
+.small_order_btn{
+  width: 100% !important;
+}
 .order_btn:hover {
   text-decoration: none;
   color: black;

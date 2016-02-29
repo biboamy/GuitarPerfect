@@ -4,8 +4,10 @@
   <title>gcookieholic</title>
   <meta http-equiv="content-language" content="zh-tw">
   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (min-width: 540px)" href="css/main.css" />
+    <link rel="stylesheet" media="screen and (max-width: 540px)" href="css/small.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
@@ -24,14 +26,14 @@
     <div id="header" ng-controller="HeaderController">
       <div class="shop_name">cookieholic</div>
       <div id="menu">
-        <div class="btn about">about</div>
-        <div class="btn middle_btn product col-sm-3">product</div>        
-        <div class="btn middle_btn order col-sm-3">order</div>
-        <div class="btn middle_btn contact col-sm-3">contact</div>
+        <div class="btn about col-sm-3 col-xs-3">about</div>
+        <div class="btn product col-sm-3 col-xs-3">product</div>        
+        <div class="btn order col-sm-3 col-xs-3">order</div>
+        <div class="btn contact col-sm-3 col-xs-3">contact</div>
       </div>
       <div id="slide_menu">
-        <div class="btn cookie col-sm-6">cookie</div>
-        <div class="btn middle_btn cake col-sm-6">cake</div>
+        <div class="btn col-sm-6 col-xs-6 cookie">cookie</div>
+        <div class="btn col-sm-6  col-xs-6 cake">cake</div>
       </div>
     </div>
 
@@ -117,18 +119,18 @@
 <!-- footer -->
     <div id="footer">
       <div class="full_width">
-        <div class="footer_left col-sm-2">
+        <div class="footer_left col-sm-2 col-xs-4">
           <div class="shop_icon">COOKIEHOLIC</div>
           <div class="icon_link"><a href="https://www.facebook.com/%E5%BA%AB%E7%B6%BA%E5%93%88%E5%88%A9-Cookieholic-801496709924452/?fref=ts"><img src="img/facebook.png"></a></div>
           <div class="icon_link"><img src="img/google.png"></div>
         </div>
-        <div class="footer_middle col-sm-2">
+        <div class="footer_middle col-sm-2 col-xs-4">
           <div class="middle_title">NAVIGATION</div>
           <div class="middle_word about">About</div>
           <div class="middle_word order">Order</div>
           <div class="middle_word contact">Contact</div>
         </div>
-        <div class="footer_right col-sm-2">
+        <div class="footer_right col-sm-2 col-xs-4">
           <div class="middle_title">PRODUCT</div>
           <div class="middle_word cake">Cake</div>
           <div class="middle_word cookie">Cookie</div>
