@@ -29,7 +29,7 @@ body{
 }
 #menu{
   margin:0 auto;
-  width: 83%;
+  width: 90%;
   margin-top: 10px;
   height: 30px;
   border-bottom: 1px solid #404040;
@@ -41,13 +41,13 @@ body{
   font-size: 14px;
   text-align: center;
   font-family: 'museo_sans300',sans-serif;
-  font-weight: 100;
+  font-weight: 800;
   text-transform: uppercase;
   padding: 0 5px 0 5px;
 }
 #slide_menu{
   margin:0 auto;
-  width: 35%;
+  width: 45%;
   height: 40px;
   display: none;
 }
@@ -57,7 +57,7 @@ body{
   font-size: 14px;
   text-align: center;
   font-family: 'museo_sans300',sans-serif;
-  font-weight: 100;
+  font-weight: 800;
   text-transform: uppercase;
 }
 #slide_menu > .middle_btn{
@@ -93,7 +93,7 @@ body{
   font-family: 'museo_sans300',sans-serif;
  }
  .paragraph > .text{
-  font-size: 20px;
+  font-size: 16px;
   color: #ebebe0;
   margin-top: 15px;
  }
