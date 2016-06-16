@@ -18,7 +18,7 @@ html, body {
   width: 90%;
 }
 .bg{
-    min-width: 80%;
+    min-width: 512px;
     min-height: 370px;
     left: 10%;
     margin: auto;
