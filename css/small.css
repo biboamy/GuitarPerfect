@@ -19,7 +19,7 @@ html, body {
 }
 .bg{
     min-width: 80%;
-    min-height: 100%;
+    min-height: 370px;
     left: 10%;
     margin: auto;
     vertical-align: middle;
@@ -43,9 +43,9 @@ html, body {
 }
 .record{
   position: absolute;
-  margin-top: 49%;
+  margin-top: 48%;
   margin-left: 8%;
-  font-size: 12px;
+  font-size: 14px;
   color: #686868;
 }
 .name{
