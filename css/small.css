@@ -43,7 +43,7 @@ html, body {
 }
 .record{
   position: absolute;
-  margin-top: 48%;
+  margin-top: 54%;
   margin-left: 8%;
   font-size: 14px;
   color: #686868;
@@ -51,7 +51,7 @@ html, body {
 .name{
   margin-left: 8%;
   position: absolute;
-  margin-top: 38%;
+  margin-top: 42%;
   color: white;
   line-height: 20px;
 }
