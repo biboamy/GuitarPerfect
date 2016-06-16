@@ -29,7 +29,7 @@ html, body {
     
 }
 .peoplePic{
-  width: 25%;
+  width: 32%;
   position: absolute;
   display: block;
   left: 0;
@@ -43,15 +43,15 @@ html, body {
 }
 .record{
   position: absolute;
-  margin-top: 39%;
-  margin-left: 16%;
+  margin-top: 49%;
+  margin-left: 8%;
   font-size: 12px;
   color: #686868;
 }
 .name{
-  margin-left: 16%;
+  margin-left: 8%;
   position: absolute;
-  margin-top: 28.5%;
+  margin-top: 36%;
   color: white;
   line-height: 20px;
 }
