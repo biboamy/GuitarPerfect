@@ -20,8 +20,8 @@ html, body {
 .bg{
     min-width: 512px;
     min-height: 370px;
-    left: 5%;
-    right: 5%;
+    left: 10%;
+    right: 10%;
     margin: auto;
     vertical-align: middle;
     background-image: url("../img/bg.jpg");
